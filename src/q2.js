@@ -9,18 +9,23 @@
     - Implement listPatient() function to print all patient's name stored in the array
 */
 
+// Task 1: Declare an array to store patient's names
+let patients = [];
 
-// Task 1: Add code here
-
-function addPatient(patientName){
-    // Task 2: Add code here
+function addPatient(patientName) {
+  // Task 2: Add patient's name to the array
+  patients.push(patientName);
 }
 
-// Task 3: Add code here
+// Task 3: List all patients
+function listPatients() {
+  console.log(patients);
+}
 
-
+// Add patients
 addPatient("John");
 addPatient("Mary");
 addPatient("Mark");
 
-listPatient(); // This should list ["John", "Mary", "Mark"]
+// List patients
+listPatients(); // This should list ["John", "Mary", "Mark"]

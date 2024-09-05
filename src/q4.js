@@ -8,5 +8,20 @@
 
 // Task 1: Add code here
 
-// Do not change the code below
-document.querySelector("#test").innerHTML = print();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 6</title>
+</head>
+<body>
+  <h1 id="test"></h1>
+
+  <script type="module" src="external.js"></script>
+
+  <script>
+    document.querySelector("#test").innerHTML = print();
+  </script>
+</body>
+</html>

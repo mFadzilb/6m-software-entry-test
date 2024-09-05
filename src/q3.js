@@ -19,11 +19,11 @@
 
 const dog = {
     breed: "dog"
-}
-
-const cat = dog; // Modify this line
-
-cat.breed = "cat";
-
-console.log("dog", dog); // If success, prints "dog { breed: 'dog' }"
-
+  }
+  
+  // Use spread operator (...) to create a new object with copied properties
+  const cat = { ...dog };
+  
+  cat.breed = "cat";
+  
+  console.log("dog", dog); // If success, prints "dog { breed: 'dog' }"
