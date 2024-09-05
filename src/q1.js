@@ -11,8 +11,21 @@
     - 9, 17
 */
 
-function swap(x, y){
-    // Task 1: Add code here
+function swap(x, y) {
+    // Task 1: Check if both x and y are numeric
+    if (typeof x !== 'number' || typeof y !== 'number') {
+        return -1;
+    }
+    
+    // Swap the values
+    let temp = x;
+    x = y;
+    y = temp;
+    
+    // Print the swapped values
+    console.log('Swapped values:', x, y);
 }
 
-// Task 2: Add code here
+// Task 2: Invoke the function with the given scenarios
+console.log(swap("Apple", 10)); // Should return -1
+swap(9, 17); // Should print "Swapped values: 17 9"
