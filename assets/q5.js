@@ -1,8 +1,3 @@
-let person = {
-  firstName : "Jane",
-  lastName :  "Smith",
-  hobby : "swimming"
-}
 
 /*
 Explanation:
